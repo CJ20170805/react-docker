@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  react-app:
+    build: .
+    ports:
+      - "7775:7775"
+    environment:
+      - NODE_ENV=production
+    container_name: cao_jiale_coding_assignment11
+    working_dir: /cao_jiale_site
